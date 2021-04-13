@@ -1,0 +1,14 @@
+:root {
+	--text-color: #222;
+	--background-color: #fff;
+}
+
+html {
+	font-family: sans-serif;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.no-select {
+	user-select: none;
+}
